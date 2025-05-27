@@ -71,7 +71,7 @@ const Index = () => {
           <div className="grid md:grid-cols-3 gap-6 mb-12">
             <div className="relative">
               <img
-                src="https://cdn.poehali.dev/files/34fd6673-d1cc-44f7-8731-6e82f89a11fc.jpg"
+                src="https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=300&h=400&fit=crop&crop=center"
                 alt="Пример ужасной дорожки сокровищ #1"
                 className="rounded-lg shadow-xl border-2 border-red-500/50 w-full h-64 object-cover"
               />
@@ -82,7 +82,7 @@ const Index = () => {
 
             <div className="relative">
               <img
-                src="https://cdn.poehali.dev/files/f326f507-9156-432c-97fd-7593211817ed.jpg"
+                src="https://images.unsplash.com/photo-1594736797933-d0401ba8fddc?w=300&h=400&fit=crop&crop=center"
                 alt="Пример ужасной дорожки сокровищ #2"
                 className="rounded-lg shadow-xl border-2 border-red-500/50 w-full h-64 object-cover"
               />
@@ -93,7 +93,7 @@ const Index = () => {
 
             <div className="relative">
               <img
-                src="https://cdn.poehali.dev/files/06e1db0f-f570-48ef-aebb-f0492d69076b.jpg"
+                src="https://images.unsplash.com/photo-1566492031773-4f4e44671d66?w=300&h=400&fit=crop&crop=center"
                 alt="Пример ужасной дорожки сокровищ #3"
                 className="rounded-lg shadow-xl border-2 border-red-500/50 w-full h-64 object-cover"
               />
