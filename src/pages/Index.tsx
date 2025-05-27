@@ -63,9 +63,45 @@ const Index = () => {
       {/* Horror Stories Section */}
       <section className="py-16 px-6 bg-slate-800/50">
         <div className="max-w-6xl mx-auto">
-          <h2 className="text-4xl font-bold text-center mb-12 text-red-400">
+          <h2 className="text-4xl font-bold text-center mb-8 text-red-400">
             🔥 УЖАСЫ ДОРОЖКИ СОКРОВИЩ
           </h2>
+
+          {/* Gallery of Horror Examples */}
+          <div className="grid md:grid-cols-3 gap-6 mb-12">
+            <div className="relative">
+              <img
+                src="https://cdn.poehali.dev/files/34fd6673-d1cc-44f7-8731-6e82f89a11fc.jpg"
+                alt="Пример ужасной дорожки сокровищ #1"
+                className="rounded-lg shadow-xl border-2 border-red-500/50 w-full h-64 object-cover"
+              />
+              <div className="absolute top-2 right-2 bg-red-600/90 text-white px-2 py-1 rounded text-sm font-bold">
+                УЖАС #1
+              </div>
+            </div>
+
+            <div className="relative">
+              <img
+                src="https://cdn.poehali.dev/files/f326f507-9156-432c-97fd-7593211817ed.jpg"
+                alt="Пример ужасной дорожки сокровищ #2"
+                className="rounded-lg shadow-xl border-2 border-red-500/50 w-full h-64 object-cover"
+              />
+              <div className="absolute top-2 right-2 bg-red-600/90 text-white px-2 py-1 rounded text-sm font-bold">
+                УЖАС #2
+              </div>
+            </div>
+
+            <div className="relative">
+              <img
+                src="https://cdn.poehali.dev/files/06e1db0f-f570-48ef-aebb-f0492d69076b.jpg"
+                alt="Пример ужасной дорожки сокровищ #3"
+                className="rounded-lg shadow-xl border-2 border-red-500/50 w-full h-64 object-cover"
+              />
+              <div className="absolute top-2 right-2 bg-red-600/90 text-white px-2 py-1 rounded text-sm font-bold">
+                УЖАС #3
+              </div>
+            </div>
+          </div>
 
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
             <Card className="bg-slate-700/50 border-red-500/30 hover:border-red-500/60 transition-all duration-300 hover-scale">
