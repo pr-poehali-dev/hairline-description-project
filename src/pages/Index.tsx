@@ -16,7 +16,7 @@ const Index = () => {
         <div className="absolute inset-0 bg-black/20"></div>
         <div className="relative z-10 max-w-4xl mx-auto">
           <h1 className="text-5xl md:text-7xl font-bold mb-6 bg-gradient-to-r from-red-500 to-orange-500 bg-clip-text text-transparent animate-fade-in">
-            ДОРОЖКА СОКРОВИЩ
+            ВОЛОСАТАЯ ПОЛОСКА
           </h1>
           <p className="text-2xl md:text-3xl mb-4 text-red-400 font-semibold">
             Самое отвратительное украшение мужского тела
@@ -30,7 +30,7 @@ const Index = () => {
           <div className="relative max-w-md mx-auto mb-8">
             <img
               src="https://cdn.poehali.dev/files/f326f507-9156-432c-97fd-7593211817ed.jpg"
-              alt="Пример ужасной дорожки сокровищ"
+              alt="Пример ужасной волосатой полоски"
               className="rounded-lg shadow-2xl border-4 border-red-500/50"
             />
             <div className="absolute inset-0 bg-red-500/20 rounded-lg flex items-center justify-center">
